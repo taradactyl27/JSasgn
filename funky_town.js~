@@ -1,0 +1,8 @@
+function fibonacci(n) {
+    var x = 1;
+    while(n > 1) {
+	x += x;
+	n -= 1;
+    }
+    return x;
+}
